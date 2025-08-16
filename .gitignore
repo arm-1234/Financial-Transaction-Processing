@@ -1,0 +1,101 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Tests
+*.test
+*.out
+coverage.html
+coverage.out
+
+# Dependencies
+# vendor/
+
+# Go workspace
+go.work
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary
+tmp/
+temp/
+
+# Docker
+.docker/
+
+# Interview files (local only)
+INTERVIEW_README.md
+INTERVIEW_CHEATSHEET.md
+resume_project_latex.tex
+
+# Profiling
+*.prof
+*.pprof
+
+# Build artifacts
+/main
+/server
+/migrate
+bin/main
+bin/server
+bin/migrate
+
+# Local development
+.local/
+local/
+
+# Backups
+*.bak
+*.backup
+
+# Security files
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Config with secrets
+config.local.yml
+config.local.yaml
+secrets.yml
+secrets.yaml
