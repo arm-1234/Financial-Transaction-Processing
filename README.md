@@ -19,9 +19,7 @@ A robust backend system built with Go for handling financial transactions with A
 - **Cache**: Redis
 - **Message Queue**: RabbitMQ
 - **Authentication**: JWT tokens
-- **Documentation**: Swagger/OpenAPI
 - **Testing**: Go testing framework + Testify
-- **CI/CD**: GitHub Actions
 - **Containerization**: Docker & Docker Compose
 
 ## 📋 Prerequisites
@@ -59,10 +57,6 @@ A robust backend system built with Go for handling financial transactions with A
    ```bash
    go run cmd/server/main.go
    ```
-
-6. **Access the API documentation**
-   - Swagger UI: http://localhost:8080/swagger/index.html
-   - API Base URL: http://localhost:8080/api/v1
 
 ## 📚 API Endpoints
 
@@ -146,28 +140,3 @@ financial-transaction-system/
 - Performance metrics
 - Error tracking
 - Real-time fraud alerts
-
-## 🚀 Deployment
-
-The application includes a complete CI/CD pipeline with:
-- Automated testing
-- Code quality checks
-- Security scanning
-- Docker image building
-- Deployment automation
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## 📞 Support
-
-For support and questions, please open an issue in the GitHub repository. 
